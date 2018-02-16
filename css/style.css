@@ -52,6 +52,7 @@ div.m_body {
 	border-top: 10px solid firebrick;
 	background: #eee;
 	transform: translateY(100px);
+	display: none;
 }
 p.h_p {
 	font-size: 36px;
@@ -62,7 +63,6 @@ p.h_p {
 	animation: aa_1 1s;
 	transform: translateY(-30px);
 	animation-fill-mode: forwards;
-	animation-delay: 3s;
 }
 p.p_p {
 	margin: 0;
@@ -74,7 +74,6 @@ p.p_p {
 	animation: aa_2 1s;
 	transform: translateY(-50px);
 	animation-fill-mode: forwards;
-	animation-delay: 3s;
 }
 div.me {
 	text-align: right;
